@@ -1,0 +1,22 @@
+.navbar {
+    background-color: black;
+    height: 80px;
+    padding-left: 260px;
+    padding-right: 260px;
+
+}
+
+.nav {}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
