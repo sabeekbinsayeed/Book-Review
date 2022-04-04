@@ -1,0 +1,21 @@
+.banner-info {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.banner-info img {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.book-info {
+    margin-right: 20px;
+    ;
+}
+
+.book-info h1 {
+    color: blueviolet
+}
