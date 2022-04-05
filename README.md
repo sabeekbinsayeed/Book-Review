@@ -1,7 +1,12 @@
-# Book Store
+# Book analysis website
 
 Our Project link:  [click here](https://astonishing-snickerdoodle-6732b5.netlify.app/).
 
+### `Some of the features of our websites are given below :`
+- Review of products given by our customers
+- Dashboard for seeing statistics
+- Read blogs
+- User friendly interface
 ## Available Scripts
 
 In the project directory, you can run:
