@@ -11,6 +11,12 @@
     margin-left: 30px;
 }
 
+.banner-info img:hover {
+    width: 83%;
+}
+
+
+
 .book-info {
     margin-right: 20px;
     ;
@@ -18,4 +24,13 @@
 
 .book-info h1 {
     color: blueviolet
+}
+
+.read-button {
+    color: blueviolet
+}
+
+.read-button:hover {
+    color: white;
+    background-color: blueviolet;
 }

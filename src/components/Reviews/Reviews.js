@@ -12,8 +12,8 @@ const Reviews = (props) => {
     const { info } = props
     const runReviews = info !== 'home' ? reviews : slicedReviews;
     return (
-        <div className='allReviews'>
-            <h1>Reviews</h1>
+        <div className='allReviews pb-2'>
+            <h1 className='pb-2'>Customer Reviews</h1>
             {/* <h1>{reviews.length}</h1>
             <h2>{slicedReviews.length}</h2> */}
             <div className="reviews">

@@ -13,7 +13,7 @@ const Home = () => {
 
             <Banner></Banner>
             <Reviews info='home'></Reviews>
-            <div className='button-div'>
+            <div className='button-div pb-5'>
                 <button onClick={() => navigate('/reviews')} className='button-review mt-5'>See all</button>
 
             </div>

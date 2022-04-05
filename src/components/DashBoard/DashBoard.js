@@ -6,10 +6,12 @@ import PieChart from '../PieChart/PieChart';
 const Dashboard = () => {
     return (
         <div>
-            <h1>Dashboard</h1>
-            <Chart></Chart>
-            <PieChart></PieChart>
-            <Chart2></Chart2>
+            <h1 className='text-center'>Dashboard</h1>
+            <div className='d-flex justify-content-center'>
+                <Chart></Chart>
+                <Chart2></Chart2>
+            </div>
+
         </div>
     );
 };
