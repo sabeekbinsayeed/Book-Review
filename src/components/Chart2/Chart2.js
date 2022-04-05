@@ -1,6 +1,5 @@
-
-import React, { PureComponent } from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Pie } from 'recharts';
+import React from 'react';
+import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 const data = [
     {
         "month": "Mar",
@@ -39,30 +38,26 @@ const data = [
         "revenue": 61000
     }
 ]
-const PieChart = () => {
-
+const Chart2 = () => {
     return (
-        <div>
-            <h1>div</h1>
-            {/* <PieChart width={400} height={400}>
-                <Pie
-                    dataKey="sell"
-                    startAngle={180}
-                    endAngle={0}
-                    data={data}
-                    cx="50%"
-                    cy="50%"
-                    outerRadius={80}
-                    fill="#8884d8"
-                    label
-                />
-            </PieChart> */}
-        </div>
-
-
-
-
+        <AreaChart
+            width={500}
+            height={400}
+            data={data}
+            margin={{
+                top: 10,
+                right: 30,
+                left: 0,
+                bottom: 0,
+            }}
+        >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="month" />
+            <YAxis />
+            <Tooltip />
+            <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
     );
 };
 
-export default PieChart;
+export default Chart2;
